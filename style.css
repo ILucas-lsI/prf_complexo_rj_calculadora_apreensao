@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("image.png");
+  margin: 20px;
+}
+.itens{
+  display: flex;
+  justify-content: space-around;
+}
+.weapon {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #fff;
+  border-radius: 8px;
+}
+.ammo {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #fff;
+  border-radius: 8px;
+}
+.contraband {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #fff;
+  border-radius: 8px;
+}
+.drugs{
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #fff;
+  border-radius: 8px;
+}
+.farm{
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #fff;
+  border-radius: 8px;
+}
+h1{
+  color: #000000;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  width: 55vh;
+}
+h3 {
+  margin-top: 0;
+  color: #333;
+}
+label {
+  margin: 5px 0;
+}
+label:hover{
+    cursor: pointer;
+    color: skyblue;
+}
+input[type="number"] {
+  width: 60px;
+  margin-left: 10px;
+}
+.linha-item{
+    padding: 0.5vh;
+}
+.total {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #ff0000;
+  background-color: #fff;
+  display: flex;
+  width:max-content ;
+  border-radius: 8px;
+  padding: 10px;
+}
+.total span{
+  margin-left: 0.5vh;
+}
+#reset{
+margin-top: 2vh;
+width: 15vh;
+height: 5vh;
+border-radius: 8px;
+background-color: #fff;
+padding: 10px;
+}
+#reset:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
